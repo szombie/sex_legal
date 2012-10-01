@@ -1,3 +1,23 @@
 // Place all the styles related to the Pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@import "variables";
+#nav{
+	width: 100%;
+	height: 113px;
+	background: url('background-menu.png');
+	ul#menu{
+		display: block;
+		padding: 0;
+		list-style: none;
+		@extend #wrapper;
+		li{
+			display: block;
+			float: left;
+			width: 20%;
+			margin-top: 25px;
+			font-size: 25px;
+			text-align: center;
+		}
+	}
+}

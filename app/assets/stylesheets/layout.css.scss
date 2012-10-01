@@ -1,0 +1,35 @@
+@import "variables";
+/*Resets*/
+body{
+	min-width: 960px;
+	margin: 0;
+	padding: 0;
+	color: $gray;
+	font-family: "cambria";
+}
+a{
+	text-decoration: none;
+	color: $gray;
+	text-shadow: 0px 1px 1px rgba(0,0,0,0.3);
+	&.true{
+		color: $blue;
+	}
+}
+/* Estilos de layout */
+.clear{
+	clear: both;
+}
+
+.header{
+	height: 157px;
+	background: url("logo.jpg") no-repeat 0px 40px;
+	@extend #wrapper;
+	#telefono{
+		float: right;
+		margin-top: 30px;
+	}
+}
+#slideshow{
+	height: 445px;
+	background-color: #444;
+}
