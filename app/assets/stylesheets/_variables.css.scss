@@ -1,3 +1,4 @@
+$gray_low: #a6aaad;
 $gray: #7d7d7d;
 $blue: #252364;
 
@@ -5,10 +6,17 @@ $blue: #252364;
 	width: 960px;
 	margin: 0 auto;
 }
+
 @font-face {
   font-family: "cambria";
   src: url(/fonts/cambria.eot);
   src: url(/fonts/cambria.eot?#iefix) format("embedded-opentype"), 
   	url(/fonts/cambria.woff) format("woff");
   font-style: normal;
+}
+
+.span1_3 {
+    float: left;
+    width: 27.33%;
+    padding:3%;
 }

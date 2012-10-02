@@ -1,5 +1,4 @@
 @import "variables";
-/*Resets*/
 body{
 	min-width: 960px;
 	margin: 0;
@@ -7,29 +6,49 @@ body{
 	color: $gray;
 	font-family: "cambria";
 }
+
 a{
 	text-decoration: none;
 	color: $gray;
 	text-shadow: 0px 1px 1px rgba(0,0,0,0.3);
-	&.true{
-		color: $blue;
-	}
+	&.true{ color: $blue; }
 }
-/* Estilos de layout */
-.clear{
-	clear: both;
-}
+
+.clear{ clear: both; }
 
 .header{
 	height: 157px;
-	background: url("logo.jpg") no-repeat 0px 40px;
 	@extend #wrapper;
+	img#logo{
+		margin-top: 40px;
+	}
 	#telefono{
 		float: right;
 		margin-top: 30px;
 	}
 }
+
 #slideshow{
 	height: 445px;
 	background-color: #444;
+}
+
+#nav{
+	width: 100%;
+	height: 113px;
+	background: url('background-menu.png');
+	ul#menu{
+		display: block;
+		padding: 0;
+		list-style: none;
+		@extend #wrapper;
+		li{
+			display: block;
+			float: left;
+			width: 170px;
+			margin-top: 25px;
+			font-size: 25px;
+			text-align: center;
+		}
+	}
 }
