@@ -4,7 +4,7 @@ development:
   database: development
   pool: 5
   username: postgres
-  password: 'root'
+  password: 'zigna123'
 
   host: localhost
   port: 5432
