@@ -31,8 +31,23 @@ a{
 .footer{
 	height:150px;
 	@extend #wrapper;
-	//background: $gray;
-	padding-top: 10px;
+	padding-top: 15px;
+	#menu{
+		height: auto;
+		width: auto;
+		float: right;
+		ul#menu-footer{
+			display: block;
+			list-style: none;
+			li{
+				display: block;
+				float: left;
+				width:auto;
+				//font-size: 25px;
+				text-align: center;
+			}	
+		}
+	}		
 }
 
 #slideshow{

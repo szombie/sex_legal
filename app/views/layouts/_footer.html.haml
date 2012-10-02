@@ -1,2 +1,9 @@
 .footer
-	%p &copy;2012 Sextant Legal Consultants
+	&copy;2012 Sextant Legal Consultants
+	#menu
+		%ul#menu-footer
+			= menu_footer('HOME |', 'home')
+			= menu_footer('	NOSOTROS |', 'about')
+			= menu_footer('	SERVICIOS |', 'services')
+			= menu_footer('	CLIENTES |', 'clients')
+			= menu_footer('	CONTACTO ', 'contact')
