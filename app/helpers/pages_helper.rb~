@@ -1,4 +1,3 @@
-#coding: utf-8
 module PagesHelper
 	def menu(link, action)
 		content_tag(:li, link_to(link, {:controller => "pages", :action => action},:class => li_active(action)))
@@ -10,7 +9,7 @@ module PagesHelper
 		link = opt[:link]
 		image_tag('/assets/slideshow/gray.png', 
 			data:{src:"/assets/slideshow/#{image}"}, 
-			title: "<p>#{title}</p><span class='link'>#{link_to('VER MÁS', link) if link}</span>"
+			title: "<p>#{title}</p><span class='link'>#{link_to('ver mas', link) if link}</span>"
 		)
 	end
 
