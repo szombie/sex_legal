@@ -28,6 +28,13 @@ a{
 	}
 }
 
+.footer{
+	height:150px;
+	@extend #wrapper;
+	//background: $gray;
+	padding-top: 10px;
+}
+
 #slideshow{
 	height: 445px;
 	background-color: #444;
