@@ -37,7 +37,8 @@ a{ text-decoration: none; }
 	color: white;
 	background: url('footer-bg.jpg');
 	a{
-		&:hover{color:$gray_low;}
+		color: white;
+		&:hover{ color:$gray_low; }
 	}
 	ul#menu-footer{
 		float: right;
@@ -56,10 +57,10 @@ a{ text-decoration: none; }
 		text-align: right;
 		.zigna{
 			padding-left:25px;
-			background: url("zigna.png") no-repeat; 
+			background: url("zigna.png") no-repeat;
+			&:hover{ background-position: 0px -18px; } 
 		}
-	}
-	a{ color: white; }		
+	}	
 }
 
 #slideshow{
