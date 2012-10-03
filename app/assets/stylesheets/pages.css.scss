@@ -13,8 +13,14 @@
 			margin:0;
 		}
 		img{
+			height: 160px;
+			margin: 0 auto;
 			padding-top: 25px;
 			border-top: solid  5px $gray_low;
+		}
+		p{
+			padding-left: 10px;
+			text-align: justify;
 		}
 	}
 }
