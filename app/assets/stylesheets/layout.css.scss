@@ -54,6 +54,7 @@ a{ text-decoration: none; }
 		}	
 	}
 	p.firm{
+		margin-top: 20px;
 		text-align: right;
 		.zigna{
 			padding-left:25px;
@@ -66,6 +67,7 @@ a{ text-decoration: none; }
 #slideshow{
 	width: 1200px;
 	height: 445px;
+	margin: 0 auto;
 	background-color: #444;
 }
 
@@ -81,7 +83,7 @@ a{ text-decoration: none; }
 		li{
 			display: block;
 			float: left;
-			width: 170px;
+			width: 180px;
 			margin-top: 25px;
 			font-size: 25px;
 			text-align: center;
