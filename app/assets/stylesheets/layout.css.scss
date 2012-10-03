@@ -7,12 +7,8 @@ body{
 	font-family: "cambria";
 }
 
-a{
-	text-decoration: none;
-	color: $gray;
-	text-shadow: 0px 1px 1px rgba(0,0,0,0.3);
-	&.true{ color: $blue; }
-}
+
+a{ text-decoration: none; }
 
 .clear{ clear: both; }
 
@@ -25,32 +21,34 @@ a{
 	#telefono{
 		float: right;
 		margin-top: 30px;
+		padding-left: 40px;
+		background: url('icon-phone.png') no-repeat 0px 50px;
 	}
 }
 
 .footer{
-	height:150px;
-	@extend #wrapper;
+	height: 86px;
 	padding-top: 15px;
-	.div_footer{
-		height: auto;
-		width: auto;
+	color: white;
+	background: url('footer-bg.jpg');
+	ul#menu-footer{
 		float: right;
-		ul#menu-footer{
+		list-style: none;
+		li{
 			display: block;
-			list-style: none;
-			margin-bottom: 40px;
-			li{
-				display: block;
-				float: left;
-				width:auto;
-				text-align: center;
-			}	
+			float: left;
+			width:auto;
+			text-align: center;
+		}	
+	}
+	p.firm{
+		text-align: right;
+		.zigna{
+			padding-left:25px;
+			background: url("zigna.png") no-repeat; 
 		}
-		p.firm{
-			text-align: right;
-		}
-	}		
+	}
+	a{ color: white; }		
 }
 
 #slideshow{
@@ -75,6 +73,11 @@ a{
 			margin-top: 25px;
 			font-size: 25px;
 			text-align: center;
+			a{
+				color: $gray;
+				text-shadow: 0px 1px 1px rgba(0,0,0,0.3);
+				&.true{ color: $blue; }
+			}
 		}
 	}
 }
