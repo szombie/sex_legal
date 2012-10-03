@@ -1,7 +1,7 @@
 #coding: utf-8
 module PagesHelper
 	def menu(link, action)
-		content_tag(:li, link_to(link, {:controller => "pages", :action => action},:class => li_active(action)))
+		content_tag(:li, link_to(link, {:controller => "/pages", :action => action},:class => li_active(action)))
 	end
 
 	def slide(opt = {})
@@ -15,7 +15,11 @@ module PagesHelper
 	end
 
 	def menu_footer(link,action)
-		content_tag(:li, link_to(link, {:controller => "pages", :action => action}))
+		content_tag(:li, link_to(link, {:controller => "/pages", :action => action}))
+	end
+
+	def zigna
+		"Diseño y Desarrollo Web | #{link_to 'Zigna Creativa', root_path, target:'_blank', class:'zigna'}"
 	end
 
 	private
