@@ -2,6 +2,19 @@ $gray_low: #a6aaad;
 $gray: #7d7d7d;
 $blue: #252364;
 
+
+body, p, a{
+  margin:0;
+  padding: 0;
+}
+
+h1,h2,h3,h4{
+  margin: 0;
+  padding: 0;
+}
+
+a{ text-decoration: none; }
+
 ul,li{
   margin: 0;
   padding: 0;

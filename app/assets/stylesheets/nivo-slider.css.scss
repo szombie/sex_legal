@@ -40,26 +40,32 @@
 /* Caption styles */
 .nivo-caption {
 	position:absolute;
-	left:500px;
-	bottom:115px;
-	width:410px;
-	height:120px;
+	left: 450px;
+	bottom: 100px;
+	width: 550px;
+	height: 250px;
 	padding: 30px 25px;
 	z-index:8;
 	opacity: 0.8;
 	overflow: hidden;
+	color: white;
 	-moz-opacity: 0.8;
 	filter:alpha(opacity=8);
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
 	box-sizing: border-box;         /* Opera/IE 8+ */
-	p{
-		color: #7d1d2a;
+	p hr{
+		background-color: white;
+    	float: left;
+    	height: 4px;
+    	width: 459px;
 	}
 	span.link a {
+		font-size: 20px;
+		color: #7d7d7d;
 		float: right;
 		&:hover{
-			color: #7d1d2a;
+			color: #a6aaad;
 		}
 	}
 }
