@@ -7,6 +7,7 @@ body{
 	font-family: "cambria";
 }
 
+
 a{
 	text-decoration: none;
 	color: $gray;
@@ -25,6 +26,8 @@ a{
 	#telefono{
 		float: right;
 		margin-top: 30px;
+		padding-left: 40px;
+		background: url('icon-phone.png') no-repeat 0px 50px;
 	}
 }
 
@@ -32,23 +35,20 @@ a{
 	height:150px;
 	@extend #wrapper;
 	padding-top: 15px;
-	.div_footer{
-		height: auto;
-		width: auto;
+	ul#menu-footer{
 		float: right;
-		ul#menu-footer{
+		list-style: none;
+		li{
 			display: block;
-			list-style: none;
-			margin-bottom: 40px;
-			li{
-				display: block;
-				float: left;
-				width:auto;
-				text-align: center;
-			}	
-		}
-		p.firm{
-			text-align: right;
+			float: left;
+			width:auto;
+			text-align: center;
+		}	
+	}
+	p.firm{
+		text-align: right;
+		.zigma{
+			padding-left: 
 		}
 	}		
 }
