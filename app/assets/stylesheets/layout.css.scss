@@ -36,6 +36,9 @@ a{ text-decoration: none; }
 	padding-top: 15px;
 	color: white;
 	background: url('footer-bg.jpg');
+	a{
+		&:hover{color:$gray_low;}
+	}
 	ul#menu-footer{
 		float: right;
 		list-style: none;
@@ -43,7 +46,10 @@ a{ text-decoration: none; }
 			display: block;
 			float: left;
 			width:auto;
+			margin-right: 5px;
 			text-align: center;
+			&:before { content: " | "; }
+			&:first-child:before { content: ""; }
 		}	
 	}
 	p.firm{

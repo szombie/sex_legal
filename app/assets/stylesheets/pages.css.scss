@@ -12,14 +12,17 @@
 			text-transform: uppercase;
 			margin:0;
 		}
+		a{
+			display: block;
+			border-top: solid  5px $gray_low;
+			height: 185px;
+			&:hover{ border-top: solid  5px $blue; }
+		}
 		img{
-			height: 160px;
 			margin: 0 auto;
 			padding-top: 25px;
-			border-top: solid  5px $gray_low;
 		}
 		p{
-			padding-left: 10px;
 			text-align: justify;
 		}
 	}
