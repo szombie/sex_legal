@@ -1,12 +1,15 @@
 @import "variables";
+
+body, p, a{
+	margin:0;
+	padding: 0;
+}
+
 body{
 	min-width: 960px;
-	margin: 0;
-	padding: 0;
 	color: $gray;
 	font-family: "cambria";
 }
-
 
 a{ text-decoration: none; }
 
@@ -20,9 +23,11 @@ a{ text-decoration: none; }
 	}
 	#telefono{
 		float: right;
+		height: 83px;
 		margin-top: 30px;
+		padding-top: 17px;
 		padding-left: 40px;
-		background: url('icon-phone.png') no-repeat 0px 50px;
+		background: url('icon-phone.png') no-repeat 0px 52px;
 	}
 }
 
@@ -43,10 +48,10 @@ a{ text-decoration: none; }
 	}
 	p.firm{
 		text-align: right;
-	.zigna{
-		padding-left:25px;
-		background: url("zigna.png") no-repeat; 
-	}
+		.zigna{
+			padding-left:25px;
+			background: url("zigna.png") no-repeat; 
+		}
 	}
 	a{ color: white; }		
 }
