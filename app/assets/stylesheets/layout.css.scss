@@ -1,17 +1,11 @@
 @import "variables";
 
-body, p, a{
-	margin:0;
-	padding: 0;
-}
-
 body{
 	min-width: 960px;
 	color: $gray;
 	font-family: "cambria";
 }
 
-a{ text-decoration: none; }
 
 .clear{ clear: both; }
 
