@@ -108,12 +108,12 @@
 		display:block;
 		width:18px;
 		height:18px;
-		background:url(slideshow/bullets.png) no-repeat;
+		background:url(slideshow/bullets.png) no-repeat -2px 0;
 		text-indent:-9999px;
 		border:0;
 		float:left;
 	}
 	a.active {
-		background-position:-19px 0;
+		background-position:-21px 0;
 	}
 }
