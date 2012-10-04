@@ -6,8 +6,9 @@
 		= javascript_include_tag 'application'
 		= csrf_meta_tags
 	%body
-		= render 'layouts/header'
-		= render 'layouts/slideshow' if params[:action] == "home"
-		= render 'layouts/navigation'
-		= yield
-		= render 'layouts/footer'
+		#body-wrapper
+			= render 'layouts/header'
+			= render 'layouts/slideshow' if params[:action] == "home"
+			= render 'layouts/navigation'
+			= yield
+			= render 'layouts/footer'

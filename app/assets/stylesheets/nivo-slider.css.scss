@@ -6,17 +6,7 @@
 	margin-bottom: 10px;
 }
 
-.slider-wrapper {
-	position: relative;
-	.border{
-		position: absolute;
-		width: 69px;
-		height: 31px;
-		left: 435px;
-		top: 99.5%;
-		background:url(slideshow/slider-deco.png) no-repeat;
-	}
-}
+.slider-wrapper { position: relative; }
 .nivoSlider {
 	overflow: hidden;
 	position: relative;
