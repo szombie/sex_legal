@@ -11,7 +11,7 @@ module PagesHelper
 		conten = opt[:conten]
 		image_tag('slideshow/gray.png',
 			data:{src:"/assets/slideshow/#{image}"}, 
-			title: "<h2>#{title}</h2><hr><br><p>#{conten}</p><span class='link'>#{link_to('VER MÁS', link) if link}</span>"
+			title: "<h2  id='title'>#{title}</h2><hr ><p id = 'description'> #{conten}</p><span class='link'>#{link_to('VER MÁS', link) if link}</span>"
 		)
 	end
 
