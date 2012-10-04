@@ -54,11 +54,14 @@
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
 	box-sizing: border-box;         /* Opera/IE 8+ */
-	p hr{
-		background-color: white;
-    	float: left;
-    	height: 4px;
-    	width: 459px;
+	p{ 
+		text-align: justify;
+		hr{
+			background-color: white;
+    		float: left;
+    		height: 4px;
+    		width: 459px;
+		}
 	}
 	span.link a {
 		font-size: 20px;
