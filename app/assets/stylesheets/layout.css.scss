@@ -83,7 +83,7 @@ body{
 			a{
 				color: $gray;
 				text-shadow: 0px 1px 1px rgba(0,0,0,0.3);
-				&.true{ color: $blue; }
+				&:hover, &.true{ color: $blue; }
 			}
 		}
 	}
