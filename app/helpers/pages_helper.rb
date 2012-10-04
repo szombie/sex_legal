@@ -20,7 +20,7 @@ module PagesHelper
 	end
 
 	def zigna
-		"Diseño y Desarrollo Web | #{link_to 'Zigna Creativa', root_path, target:'_blank', class:'zigna'}"
+		"Diseño y Desarrollo Web | #{link_to 'Zigna Creativa','http://www.zignacreativa.com', target:'_blank', class:'zigna'}"
 	end
 
 	private
