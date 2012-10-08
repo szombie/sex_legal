@@ -1,9 +1,22 @@
-// Place all the styles related to the Pages controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
-@import "variables";
+$gray_low: #a6aaad;
+$gray: #7d7d7d;
+$blue: #252364;
+
+@font-face {
+  font-family: "cambria";
+  src: url(/fonts/cambria.eot);
+  src: url(/fonts/cambria.eot?#iefix) format("embedded-opentype"), 
+  	url(/fonts/cambria.woff) format("woff");
+  font-style: normal;
+}
+
+.span1_3 {
+    float: left;
+    width: 30%;
+    margin: 14px;
+}
+
 #inicio{
-	@extend #wrapper;
 	.secciones{
 		font-color: $blue;
 		@extend .span1_3;
@@ -29,17 +42,13 @@
 }
 
 #about{
-	@extend #wrapper;
 }
 
 #clients{
-	@extend #wrapper;
 }
 
 #contact{
-	@extend #wrapper;
 }
 
 #services{
-	@extend #wrapper;
 }
