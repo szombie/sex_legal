@@ -13,6 +13,9 @@ html,body{
   height: 100%;
   margin: 0 auto;
 }
+
+a{ text-decoration: none; }
+
 .clear{ clear: both; }
 
 #wrapper{
@@ -40,7 +43,7 @@ html,body{
 	margin: 0 auto;
 	background: #17143a url(slideshow/bg.png) no-repeat 100%;
 	background-size: 83% 100%;
-	p{ 
+	#description{
 		text-align: justify;
 		hr{
 			background-color: white;
@@ -51,7 +54,7 @@ html,body{
 	}
 	span.link a {
 		font-size: 20px;
-		color: #7d7d7d;
+		color: white;
 		float: right;
 		&:hover{
 			color: #a6aaad;
