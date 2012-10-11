@@ -70,7 +70,7 @@ html {
  * Removes default margin.
  */
 
-body {
+body, ul {
     margin: 0;
 }
 
