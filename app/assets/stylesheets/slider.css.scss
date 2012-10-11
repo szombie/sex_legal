@@ -39,12 +39,15 @@
 	top: 50%;
 	left: 30%;
 	width: 60%;
+	min-width: 700px;
 	a{
+		border: 0px;
 		display: block;
 		float: left;
 		width: 45px;
 		height: 45px;
 		background: url(slideshow/arrows.png) no-repeat;
+		outline: none;
 		&.next{ 
 			position: absolute; 
 			right: 0%;
