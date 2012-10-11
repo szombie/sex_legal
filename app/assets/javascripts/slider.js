@@ -3,7 +3,7 @@ jQuery(function($){
 	$("#myslide").append("<div id='button'></div>");
 	$("#myslide").append("<div id='direction'><a class='prev'></a><a class='next'></a></div>");
 	$("#myslide img").each(function(index){
-		var title = $(this).attr('title');
+		var title = $(this).data('title');
 		$(this).wrap("<div id='slide"+index+"' class='slide'></div>");
 		$('#slide'+index).append('<div class="caption">'+title+'</div>');
 		$('#button').append("<a href='#slide" + index + "'></a>");

@@ -10,7 +10,7 @@ module PagesHelper
 		link = opt[:link]
 		desc = opt[:desc]
 		image_tag("slideshow/#{image}",
-			title: "<h2  id='title'>#{title.upcase}</h2><hr><p id = 'description'> #{desc}</p><span class='link'>#{link_to('VER MÁS', link) if link}</span>"
+			data:{ title: "<h2  id='title'>#{title.upcase}</h2><hr><p id = 'description'> #{desc}</p><span class='link'>#{link_to('VER MÁS', link) if link}</span>"}
 		)
 	end
 
